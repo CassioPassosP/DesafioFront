@@ -1,0 +1,61 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "Ana Souza",
+      "email": "ana@exemplo.com"
+    },
+    {
+      "id": 2,
+      "name": "Bruno Lima",
+      "email": "bruno@exemplo.com"
+    }
+  ],
+  "courses": [
+    {
+      "id": 1,
+      "name": "ADS - Fundamentos de Programação",
+      "workload": 60
+    },
+    {
+      "id": 2,
+      "name": "Banco de Dados",
+      "workload": 80
+    }
+  ],
+  "professors": [
+    {
+      "id": 1,
+      "name": "Profa. Carla Nunes",
+      "email": "carla@exemplo.com"
+    },
+    {
+      "id": 2,
+      "name": "Prof. Diego Martins",
+      "email": "diego@exemplo.com"
+    }
+  ],
+  "classes": [
+    {
+      "id": 1,
+      "courseId": 1,
+      "professorId": 1,
+      "scheduleCode": "21"
+    },
+    {
+      "id": 2,
+      "courseId": 2,
+      "professorId": 2,
+      "scheduleCode": "33"
+    }
+  ],
+  "enrollments": [
+    {
+      "id": 1,
+      "studentId": 1,
+      "turmaId": 2,
+      "courseId": 2,
+      "date": "2025-11-01"
+    }
+  ]
+}

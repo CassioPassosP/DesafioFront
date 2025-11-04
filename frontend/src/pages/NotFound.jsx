@@ -1,0 +1,1 @@
+export default function NotFound(){return <div className='alert alert-warning'>Página não encontrada.</div>}
